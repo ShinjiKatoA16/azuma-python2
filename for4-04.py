@@ -9,4 +9,4 @@ if 1 <= num and num <= 9:
             out_s = out_s + str(col)
         print(out_s)
 else:
-    print('input numbe 1-9')
+    print('input number 1-9')

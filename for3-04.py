@@ -1,13 +1,12 @@
-# python-2 for3-06
+# python-2 for3-04
 
-column = int(input('column number =>'))
-row = int(input('row number =>'))
+num = int(input('input positive number=>'))
 
-if column < 2 or row < 2:
+if num < 0:
     print('invalid!')
 else:
-    for r in range(row):
-        if r == 0 or r == row-1:
-            print('■'+'□'*(column-2)+'■')
+    for n in range(0, num+1):
+        if n%2 == 0:
+            print(n, 'even')
         else:
-            print('□'*column)
+            print(n, 'odd')
